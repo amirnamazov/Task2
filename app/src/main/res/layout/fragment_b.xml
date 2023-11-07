@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@color/red"
-    tools:context=".drawer.FragmentA">
+    android:background="@color/green"
+    tools:context=".drawer.FragmentB">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:text="Fragment A" />
+        android:text="Fragment B" />
 
 </LinearLayout>
