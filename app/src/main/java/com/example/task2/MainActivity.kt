@@ -27,10 +27,7 @@ class MainActivity : AppCompatActivity() {
         setupBackPressed()
     }
 
-    override fun onSupportNavigateUp(): Boolean {
-        val navUp = navController.navigateUp(binding.drawerLayout)
-        return navUp
-    }
+    override fun onSupportNavigateUp(): Boolean = navController.navigateUp(binding.drawerLayout)
 
     private fun setupActionBar() {
         setSupportActionBar(binding.toolbar)
